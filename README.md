@@ -30,7 +30,7 @@ Il progetto è basato sul file `Progetto_Excel_Advanced_di_Lorenzo_DAngeli.xlsx`
 
 ### 1. Profilazione Demografica e Data Cleaning
 * **Conteggio e Volumi**: Analizzati 300 record utente (`COUNTA`). È stata identificata la moda della dimensione del gruppo familiare, risultata pari a **4 membri** (`MODE`).
-* **Data Cleaning**: Identificato e segnalato un errore di digitazione nella colonna dei Paesi alla riga 89 (`Germny` invece di `Germany`).
+* **Data Cleaning**: Identificato e segnalato un errore di digitazione nella colonna dei Paesi alla riga 20 (`Germny` invece di `Germany`).
 * **Calcolo Età Esatta**: Utilizzando la funzione `DATEDIF` sulla data di nascita aggiornata alla data corrente, è emerso che **289 utenti su 300** hanno un'età superiore ai 30 anni.
 
 ### 2. Mobilità e Impatto Ambientale
